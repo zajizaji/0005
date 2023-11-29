@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://image.jimcdn.com/app/cms/image/transf/none/path/sa98c5f9338eca2e3/image/ic09053877229f36c/version/1534684338/image.gif");
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.custom-highlighting{
+  color: red;
+}
+.custom-highlighting1{
+  color: orange;
+}
+.custom-highlighting2{
+  color: yellow;
+}
+.custom-highlighting3{
+  color: green;
+}
+.custom-highlighting4{
+  color: aqua;
+}
+.custom-highlighting5{
+  color: blue;
+}
+.custom-highlighting6{
+  color: purple;
+}
+
+.custom-highlighting::selection {
+  background-color: red;
+  color: #fff;
+}
+.custom-highlighting1::selection {
+  background-color: orange;
+  color: #fff;
+}
+.custom-highlighting2::selection {
+  background-color: yellow;
+  color: #fff;
+}
+.custom-highlighting3::selection {
+  background-color: green;
+  color: #fff;
+}
+.custom-highlighting4::selection {
+  background-color: aqua;
+  color: #fff;
+}
+.custom-highlighting5::selection {
+  background-color: blue;
+  color: #fff;
+}
+.custom-highlighting6::selection {
+  background-color: purple;
+  color: #fff;
+}
